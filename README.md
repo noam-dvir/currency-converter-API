@@ -19,9 +19,5 @@ note: “amount”: -1 is returned if any of the input parameters are invalid.
 Example API call:
 http://127.0.0.1:8000/convert/?amount=3&src_currency=USD&dest_currency=JPY&reference_date=2019-12-05
 
------------------------------------------------------------------------------------------------------------
-In addition, I deployed my code to PythonAnywhere, web hosting service, 
-so you can also call the API by adding the relevant parameters to the
-following URL: 
-For example:
-
+Example response:
+{"amount": 326.36560302866417, "currency": "JPY"}
